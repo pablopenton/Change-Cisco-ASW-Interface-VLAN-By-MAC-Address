@@ -8,9 +8,9 @@ A python script to identify the access switch port that a user's computer is
 ### Summary
 This script was designed with the assumption that access switches in a campus
  network are linked together via PortChannels. With this in mind, the script
-  loops through access switches and see if there is a matching entry in their
+  loops through access switches to see if there is a matching entry in their
    MAC address table for the desired MAC address, specifically if the
-    matching interface is a GigabitEthernet interface, in this scenario. An
+    matching interface is a GigabitEthernet interface in this scenario. An
      alternate approach could be to start at the distribution level and
       "drill down" to which access switch is connected to the device, but
        that would arguably entail more complicated logic which can be avoided
