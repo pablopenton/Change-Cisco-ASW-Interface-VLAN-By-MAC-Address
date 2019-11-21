@@ -1,4 +1,5 @@
 from getpass import getpass
+
 from netmiko import ConnectHandler
 from ntc_templates.parse import parse_output
 
